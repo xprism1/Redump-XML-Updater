@@ -1,13 +1,12 @@
 # Redump XML Updater
 ## Introduction
-Check for the newest .dat files on Redump.org and insert them into a xml file to use with the clrmamepro's _WWW Profiler_ standard. The script also can run a simple local webserver using Python's http.server module, to update the xml into clrmamepro.
+Check for the newest .dat files on Redump.org and insert them into a XML file to use with the clrmamepro's _WWW Profiler_ standard. The script also can run a simple local webserver using Python's http.server module, to update the XML into clrmamepro.
 
 ## How to use
 1. Install Python 3, and the requests module.
 2. Edit the UserInfo.xml file with log-in data (if you have).
-3. Run the script, if you chose the first option it will update the xml and start a local server too.
-4. Add the following URL into clrmamepro's _WWW Profiler_
-> localhost/profile.xml
+3. Run the script, if you chose the first option it will update the XML and start a local server too.
+4. Add the following URL into clrmamepro's _WWW Profiler_: `localhost/profile.xml`
 
 ## Limitations
 * The port should left at 80 because, clrmamepro only works with that port.
