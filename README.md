@@ -9,5 +9,5 @@ Check for the newest .dat files on Redump.org and insert them into a XML file to
 4. Add the following URL into clrmamepro's _WWW Profiler_: `localhost/profile.xml`
 
 ## Limitations
-* The port should left at 80 because, clrmamepro only works with that port.
-* The script doesn't insert any links to download the DATs inside the clrmamepro
+* The port should left at 80 as clrmamepro only works with that port.
+* The script doesn't insert any links to download the DATs inside the clrmamepro.
